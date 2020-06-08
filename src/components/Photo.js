@@ -24,7 +24,7 @@ export default function Photo() {
   return(
     <div className="main">
 
-        <div className="photo">
+        <div className="photo-container">
           <img
             src={photo.url}
             alt={photo.title}
