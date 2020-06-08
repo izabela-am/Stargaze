@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #131217;
+  background-color: #202024;
   color: white;
 }
 
@@ -22,13 +22,17 @@ body {
   justify-content: space-between;
 }
 
+.main .side {
+  height: 530px;
+}
+
 .main .photo-container {
   justify-content: center;
   align-items: center;
   display: flex;
   width: 100%;
   border-radius: 8px;
-  background-color: #19181F;
+  background-color: #29292E;
   width: 720px;
   height: 530px;
   margin-right: 30px;
@@ -40,11 +44,11 @@ body {
 
 .main .title {
   font-size: 15px;
-  margin-bottom: 32px;
+  margin-bottom: 10px;
   font-family: 'Roboto';
   border-radius: 8px;
-  background-color:#19181F;
-  color: white;
+  background-color: #29292E;
+  color: #E1E1E6;
   width: 400px;
   padding: 15px;
 }
@@ -53,8 +57,10 @@ body {
   border-radius: 10px;
   font-family: 'Roboto';
   font-size: 13px;
-  background-color: #19181F;
+  background-color: #29292E;
   width: 400px;
   padding: 15px;
   height: 320px;
+  color: #E1E1E6;
+  height: 418px;
 }
